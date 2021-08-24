@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NurseryModelStoreContainer" CdmEntityContainer="NurseryEntities">
+    <EntitySetMapping Name="Nurseries">
+      <EntityTypeMapping TypeName="NurseryModel.Nursery">
+        <MappingFragment StoreEntitySet="Nursery">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="facebook" ColumnName="facebook" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="daily_report">
+      <EntityTypeMapping TypeName="NurseryModel.daily_report">
+        <MappingFragment StoreEntitySet="daily_report">
+          <ScalarProperty Name="kid_id" ColumnName="kid_id" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="mood" ColumnName="mood" />
+          <ScalarProperty Name="food" ColumnName="food" />
+          <ScalarProperty Name="studies_homework" ColumnName="studies_homework" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="notifications">
+      <EntityTypeMapping TypeName="NurseryModel.notification">
+        <MappingFragment StoreEntitySet="notification">
+          <ScalarProperty Name="nursery_id" ColumnName="nursery_id" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KidImages">
+      <EntityTypeMapping TypeName="NurseryModel.KidImage">
+        <MappingFragment StoreEntitySet="KidImages">
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="kid_id" ColumnName="kid_id" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kids">
+      <EntityTypeMapping TypeName="NurseryModel.Kid">
+        <MappingFragment StoreEntitySet="Kids">
+          <ScalarProperty Name="nursery_id" ColumnName="nursery_id" />
+          <ScalarProperty Name="created_on" ColumnName="created_on" />
+          <ScalarProperty Name="date_of_birth" ColumnName="date_of_birth" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="collected" ColumnName="collected" />
+          <ScalarProperty Name="approve" ColumnName="approve" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone2" ColumnName="phone2" />
+          <ScalarProperty Name="phone1" ColumnName="phone1" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SkillHubUsers">
+      <EntityTypeMapping TypeName="NurseryModel.SkillHubUser">
+        <MappingFragment StoreEntitySet="SkillHubUser">
+          <ScalarProperty Name="creaeted_on" ColumnName="creaeted_on" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="NurseryModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="nursery_id" ColumnName="nursery_id" />
+          <ScalarProperty Name="creaeted_on" ColumnName="creaeted_on" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="contact" ColumnName="contact" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

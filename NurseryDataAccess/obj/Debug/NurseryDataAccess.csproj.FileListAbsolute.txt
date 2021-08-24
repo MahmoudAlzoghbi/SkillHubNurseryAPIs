@@ -1,0 +1,10 @@
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\NurseryDataAccess.dll.config
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\NurseryDataAccess.dll
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\NurseryDataAccess.pdb
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\EntityFramework.dll
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\EntityFramework.xml
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\obj\Debug\NurseryDataAccess.dll
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\obj\Debug\NurseryDataAccess.pdb
+G:\workSpace\C# WorkSpace\NurseryAPIS\NurseryDataAccess\obj\Debug\NurseryDataAccess.csprojResolveAssemblyReference.cache
